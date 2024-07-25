@@ -25,7 +25,7 @@
 }
 
 /* tablet breakpoint */
-@media (min-width:768px) {
+@media (width >= 768px) {
     .writer {
         display: grid;
         grid-auto-rows: 1fr;

@@ -15,17 +15,17 @@
   --nav-height: 64px;
 
   /* fonts */
-  --heading-font-family: Asar, Georgia, "Times New Roman", Times, serif;
-  --body-font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --heading-font-family: asar, georgia, "Times New Roman", times, serif;
+  --body-font-family: "Source Sans Pro", "Helvetica Neue", helvetica, arial, sans-serif;
   --fixed-font-family: "Roboto Mono", menlo, consolas, "Liberation Mono", monospace;
 
   /* colors */
   --text-color: #202020;
   --link-color: #ffea00;
   --link-hover-color: #ffea00;
-  --background-color: #ffffff;
-  --overlay-background-color: #eeeeee;
-  --highlight-background-color: #cccccc;
+  --background-color: #fff;
+  --overlay-background-color: #eee;
+  --highlight-background-color: #ccc;
   --light-color: #eee;
   --dark-color: #ccc;
 

@@ -4,8 +4,8 @@ import { createOptimizedPicture } from '../../scripts/aem.js';
 export default async function decorate(block) {
   const articles = await ffetch('/magazine/query-index.json').all();
   articles.forEach((article) => {
-      const articleBlock = document.createElement('div');
-      articleBlock.innerHTML = `
+    const articleBlock = document.createElement('div');
+    articleBlock.innerHTML = `
     <div class="card">
         <div class="card-thumb">
             ${createOptimizedPicture(article.image, article.title, false, [{ width: '800' }]).innerHTML}
@@ -18,6 +18,6 @@ export default async function decorate(block) {
             </p>
         </div>
     </div>`;
-      block.appendChild(articleBlock);
+    block.appendChild(articleBlock);
   });
 }
