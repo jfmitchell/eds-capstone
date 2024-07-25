@@ -1,0 +1,34 @@
+.writer {
+    display:block;
+    text-align:center;
+}
+
+.writer > * {
+    padding:1rem;
+}
+
+.writer picture img {
+    border-radius: 50%;
+    height: 164px;
+    width: 164px;
+    object-fit: cover;
+}
+
+.writer h3 {
+    font-size: 24px;
+}
+
+.writer h5 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: var(--body-font-family);
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .writer {
+        display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
